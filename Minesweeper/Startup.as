@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.Sprite;	import starling.core.Starling;		public class Startup extends Sprite{				public var starling:Starling;		public function Startup() {			// constructor code						starling = new Starling(Game, stage);			starling.start();					}	}	}
